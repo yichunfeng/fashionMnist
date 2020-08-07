@@ -1,8 +1,8 @@
 # Adversarial Attacks and Adversarial Trainings Based on Fast Gradient Sign Method
 
-The ML neural networks are vulnerable to adversarial samples. Those samples were added some disturbance and lead a misclassification for the classifier.
+The ML neural networks are vulnerable to adversarial samples. Those samples were added some disturbance and lead a misclassification of the classifier.
 
-We would like to generate the adversarial samples to launched attacks. In addition, we would like to use these samples for adversarial training to improve the
+We would like to generate the adversarial samples to launched attacks. In addition, we use these samples for adversarial training to improve the
 robustness of our neural network.
 
 ## Requirements
@@ -74,6 +74,25 @@ In Fast Gradient Sign Method, <img src="https://latex.codecogs.com/gif.latex?\et
 
 where <img src="https://latex.codecogs.com/gif.latex?J(\theta&space;,x,y)" title="J(\theta ,x,y)" /></a> is the loss function.
 
+We generated the adversarial samples with a white-box attack.
+
+```
+loss=K.categorical_crossentropy(y_hat,model.output)
+gra=K.gradients(loss,model.input)[0]
+x_hat+=0.007*(np.sign(gra))
+```
+
+In an untargeted attack, the neural network is expected to classify a sample into any categories other than the correct one.
+Therefore, the loss function is set to become higher and higher during the process.
+In our case, we would like to launch a targeted attack, so we were committed to reduce the loss function.
+All labels are moved one unit aside to become the new labels for the classification.
+
+```
+if np.argmax(test_labels[i])<9:
+    labels=np.argmax(test_labels[i])+1       
+else:
+    labels=0
+```
 
 
 
