@@ -61,12 +61,17 @@ It is stated in [[1](#reference)] when a disturbance <img src="https://latex.cod
 
 <img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;\eta&space;\right&space;\|&space;<&space;\varepsilon" title="\left \| \eta \right \| < \varepsilon" /></a>
 
-The classifier will not be able to make a distinction between the sample <img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a> and the adversarial sample <img src="https://latex.codecogs.com/gif.latex?\hat{x}" title="\hat{x}" /></a>
+The classifier will not be able to make a distinction between the sample <img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a> and the adversarial one <img src="https://latex.codecogs.com/gif.latex?\hat{x}" title="\hat{x}" /></a>
 
 
 where
 
 <img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;x&space;&plus;&space;\eta" title="\hat{x} = x + \eta" /></a>
+
+In Fast Gradient Sign Method, <img src="https://latex.codecogs.com/gif.latex?\eta" title="\eta" /></a> is defined as
+
+<img src="https://latex.codecogs.com/gif.latex?\eta&space;=&space;\varepsilon&space;sign(&space;\triangledown&space;_{x}&space;J(\theta&space;,x,y))" title="\eta = \varepsilon sign( \triangledown _{x} J(\theta ,x,y))" /></a>
+
 
 
 ## Black-box Attack
