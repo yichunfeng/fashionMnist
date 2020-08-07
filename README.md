@@ -94,9 +94,10 @@ else:
     labels=0
 ```
 
-
-
 ## Black-box Attack
+
+In the case that one's network structure and gradient cannot be obtain, we use our adversarial samples, which are generated with white-box attacks, to launch a black-box attacks on this network.
+However, the tranferrity may be disappointing. We could observe the outcome of classification and randomly add little noise to the samples until the network finally make a misclassification.
 
 ## Adversarial Training
 
