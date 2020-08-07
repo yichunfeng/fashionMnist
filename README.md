@@ -61,7 +61,7 @@ It is stated in [[1](#reference)] when a disturbance is limited to a range
 
 <img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;\eta&space;\right&space;\|&space;<&space;\varepsilon" title="\left \| \eta \right \| < \varepsilon" /></a>
 
-<img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;x&space;&plus;&space;\eta" title="\hat{x} = x + \eta" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{x}&space;=&space;x&space;&plus;&space;\eta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;x&space;&plus;&space;\eta" title="\hat{x} = x + \eta" /></a>
 
 
 ## Black-box Attack
