@@ -61,7 +61,7 @@ It is stated in [[1](#reference)] when a disturbance is limited to a range
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5C%7C%20%20%5Ceta%20%20%5C%7C%20%20%3C%20%20%5Cvarepsilon%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cwidehat%7BX%7D%20%20%3D%20X%20%2B%20%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
+![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Chat%7Bx%7D%20%20%3D%20x%20%2B%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
 
 ## Black-box Attack
