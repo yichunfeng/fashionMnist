@@ -57,11 +57,16 @@ model = keras.models.load_model('fmnist_CNN.h5')
 ```
 
 ## White-box Attack
-It is stated in [[1](#reference)] when a disturbance is limited to a range
+It is stated in [[1](#reference)] when a disturbance <img src="https://latex.codecogs.com/gif.latex?\eta" title="\eta" /></a> is limited to a range:
 
 <img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;\eta&space;\right&space;\|&space;<&space;\varepsilon" title="\left \| \eta \right \| < \varepsilon" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{x}&space;=&space;x&space;&plus;&space;\eta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;x&space;&plus;&space;\eta" title="\hat{x} = x + \eta" /></a>
+The classifier will not be able to make a distinction between the sample <img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a> and the adversarial sample <img src="https://latex.codecogs.com/gif.latex?\hat{x}" title="\hat{x}" /></a>
+
+
+where
+
+<img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;x&space;&plus;&space;\eta" title="\hat{x} = x + \eta" /></a>
 
 
 ## Black-box Attack
