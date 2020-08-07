@@ -59,7 +59,7 @@ model = keras.models.load_model('fmnist_CNN.h5')
 ## White-box Attack
 It is stated in [[1](#reference)] when a disturbance is limited to a range
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5C%7C%20%20%5Ceta%20%20%5C%7C%20%20%3C%20%20%5Cvarepsilon%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
+<img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;\eta&space;\right&space;\|&space;<&space;\varepsilon" title="\left \| \eta \right \| < \varepsilon" /></a>
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Chat%7Bx%7D%20%20%3D%20x%20%2B%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
