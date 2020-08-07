@@ -87,7 +87,7 @@ for i in range(50):
     model.fit(x_hat, y_hat, epochs=1, steps_per_epoch=1)
     loss=K.categorical_crossentropy(y_hat,model.output)
     gra=K.gradients(loss,model.input)[0]
-    x_hat-=0.02*gra
+    x_hat+=0.007*(np.sign(gra))
 
 np.save('x_hat.npy',x)
 
