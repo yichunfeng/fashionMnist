@@ -54,7 +54,8 @@ model = keras.models.load_model('fmnist_CNN.h5')
 ```
 
 ## White-box Attack
-It is stated in [1](#reference)that 
+It is stated in [[1](#reference)] that 
+
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cwidehat%7BX%7D%20%20%3D%20X%20%2B%20%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
 
