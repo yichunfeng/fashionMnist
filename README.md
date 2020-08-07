@@ -2,8 +2,6 @@
 
 This is the project of black-box and white-box adversarial attacks and adversarial trainings.
 
-Reference: [Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572.](https://arxiv.org/abs/1412.6572)
-
 ## Requirements
 * Python 3.6
 * TensorFlow 2.0+
@@ -56,6 +54,7 @@ model = keras.models.load_model('fmnist_CNN.h5')
 ```
 
 ## White-box Attack
+It is stated in [1](#reference)that 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cwidehat%7BX%7D%20%20%3D%20X%20%2B%20%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
 
@@ -63,3 +62,5 @@ model = keras.models.load_model('fmnist_CNN.h5')
 
 ## Adversarial Training
 
+## Reference
+[Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572.](https://arxiv.org/abs/1412.6572)
