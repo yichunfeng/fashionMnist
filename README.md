@@ -72,6 +72,9 @@ In Fast Gradient Sign Method, <img src="https://latex.codecogs.com/gif.latex?\et
 
 <img src="https://latex.codecogs.com/gif.latex?\eta&space;=&space;\varepsilon&space;sign(&space;\triangledown&space;_{x}&space;J(\theta&space;,x,y))" title="\eta = \varepsilon sign( \triangledown _{x} J(\theta ,x,y))" /></a>
 
+where <img src="https://latex.codecogs.com/gif.latex?J(\theta&space;,x,y)" title="J(\theta ,x,y)" /></a> is the loss function.
+
+
 
 
 ## Black-box Attack
