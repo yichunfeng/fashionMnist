@@ -1,6 +1,9 @@
 # Adversarial Attacks and Adversarial Trainings Based on Fast Gradient Sign Method
 
-This is the project of black-box and white-box adversarial attacks and adversarial trainings.
+The ML neural networks are vulnerable to adversarial samples. Those samples were added some disturbance and lead a misclassification for the classifier.
+
+We would like to generate the adversarial samples to launched attacks. In addition, we would like to use these samples for adversarial training to improve the
+robustness of our neural network.
 
 ## Requirements
 * Python 3.6
@@ -54,7 +57,9 @@ model = keras.models.load_model('fmnist_CNN.h5')
 ```
 
 ## White-box Attack
-It is stated in [[1](#reference)] that 
+It is stated in [[1](#reference)] when a disturbance is limited to a range
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5C%7C%20%20%5Ceta%20%20%5C%7C%20%20%3C%20%20%5Cvarepsilon%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cwidehat%7BX%7D%20%20%3D%20X%20%2B%20%20%5Ceta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img])
 
